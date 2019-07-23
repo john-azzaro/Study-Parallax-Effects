@@ -1,3 +1,27 @@
 *, *::before, *::after {                                                                                 /* Default values: */
-    box-sizing: border-box;                                                                                  /* Includes padding and border in elements for total width and height */                                                                 
+    box-sizing: border-box;                                                                                  /* Includes padding and border in elements for total width and height */
+    margin: 0;
+    padding: 0;                                                                 
 }
+
+header {                                                                                                      /* for the header section...*/
+    min-height: 100vh;                                                                                          /* make the content the full height of the viewport (i.e. full screen) */
+    background: linear-gradient(to right, rgb(177, 178, 189), rgb(165, 168, 149));                          /* gradient from right grey to yellow*/
+}
+
+.main-text {                                                                                            /* for the main text in the study (i.e. the h1 and h3 elements)*/
+    position: absolute;                                                                                     /* set position to absolute so it can positioned anywhere you want */
+}
+
+.kiwi {
+
+}
+
+.mango {
+
+}
+
+.mango {
+    
+}
+
