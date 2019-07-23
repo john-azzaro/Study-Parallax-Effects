@@ -2,7 +2,7 @@
 
 function parallax(element, distance, speed ) {                             // parallax function that takes 3 parameters: element, distance, and 
     const item = document.querySelector(element);                          // the selected element is stored as "item".
-    item.style.transform = `translateY(${distance * speed}px)`             // when the parallax function is called, the item style will transform with "translateY" 
+    item.style.transform = `translateY(${distance * speed}px)`;            // when the parallax function is called, the item style will transform with "translateY" 
 }                                                                          // ... and "distance * speed" allows us to customize the parallax speed and distance.
 
 

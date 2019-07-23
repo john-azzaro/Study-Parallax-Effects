@@ -62,6 +62,14 @@ STEP 4: write logic for parallax
     2. distance -- the distance we need to scroll
     3. speed -- the speed at which the selected element will go.
 
+-- The logic of the function is as follows:
+
+        function parallax(element, distance, speed ) {                             
+            const item = document.querySelector(element);                       <== for the element selected (stored as a constant names "item")...          
+            item.style.transform = `translateY(${distance * speed}px)`          <== the item's style will transform based on the specified distance and speed   
+        }        
+
+
 
 
 NEAT EXAMPLES
