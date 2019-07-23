@@ -1,2 +1,21 @@
 Process Notes
 ==============
+
+So this is a study on parallax.  But what is parallax exactly?  To put this in context, think
+of a normal website with a fixed background image.  When you scroll down, the image will stay as is.  
+However, the magic happens when you start using parallax.  When you use a static image, it will remain 
+static while the content moves over the image as you scroll down the page.  With the parallax effect, both
+the image AND the content move as you move down the page.
+
+
+STEP 1: create an html page
+=============================
+-- in this example, 
+
+
+
+EXAMPLES
+=========
+
+https://kontainer.com/  -- note the subtle shape elements that move as you scroll down
+https://www.crema.us/ -- note the splash and moving phone outlines
