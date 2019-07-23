@@ -50,7 +50,17 @@ header {                                                                        
     right: 10%;
 }
 
+section {                                                                                                  /* for the content section below the main parallax section*/
+    min-height: 100vh;                                                                                       /* set the height to viewport height*/
+    background-color: #645757;
+    display: flex;                                                                                           /* set the display*/
+    justify-content: center;                                                                                  /* set text horizontally center */
+    align-items: center;                                                                                     /* set text ver*/
+}
 
+section > h1 {
+    font-size: 60px;
+}
 
 
 

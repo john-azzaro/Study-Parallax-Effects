@@ -31,9 +31,23 @@ STEP 2: Set up the css for the elements you want to apply the parallax effect to
     --  set transform: translate (i.e. translate(x,y)) with the x axis being the horizontal and y being vertical but also adding a 
         negative to it.
 
+                        .kiwi {                                                                                                 
+                            position: absolute;                                                                                     
+                            height: 600px;                                                                                           
+                            top: 90%;                                                                                                
+                            right: 10%;                                                                                              
+                            transform: translate(-10%, -90%);                                                                        
+                        }
+
+    -- note that transform is applied just to the kiwi for a 2 dimensional effect in contrast to the other elements.
+
+
 STEP 3: Set the seperate section:
 ================================
--- set the height of the section below to 100vh.
+-- set the height of the section below to 100vh.  What happens here is that the section will be the same viewport size like we have
+   in the parallax section above, but essentially color block over it.
+-- Note that you could do whatever you want with this section, whether that be the solid color we have in the study, reconfigure
+   some of the images to extend over this section, or even have another paralax section.
 
 
 
