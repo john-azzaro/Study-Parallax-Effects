@@ -9,6 +9,7 @@
 header {                                                                                                      /* for the header section...*/
     min-height: 100vh;                                                                                          /* make the content the full height of the viewport (i.e. full screen) */
     background: linear-gradient(to right, rgb(177, 178, 189), rgb(165, 168, 149));                          /* gradient from right grey to yellow*/
+    z-index: -1;                                                                                               /* added for paralax functionality, this will set the header BELOW the section*/
 }
 
 .main-text {                                                                                            /* for the main text in the study (i.e. the h1 and h3 elements)*/
@@ -51,7 +52,7 @@ header {                                                                        
 }
 
 section {                                                                                                  /* for the content section below the main parallax section*/
-    min-height: 70vh;                                                                                       /* set the height to viewport height (70vh is 70% of the current viewport height for this element)*/
+    min-height: 100vh;                                                                                       /* set the height to viewport height (70vh is 70% of the current viewport height for this element)*/
     background-color: #645757;
     display: flex;                                                                                           /* set the display*/
     justify-content: center;                                                                                  /* set text horizontally center */
