@@ -70,7 +70,15 @@ STEP 4: write logic for parallax
         }        
 
 
+STEP 5: Add event listeners for each element that you want to scroll in parallax
+================================================================================
+-- on scroll, run functions for each element 
+-- remember adjust the distance and scoll for each elemement accordingly.
 
+
+STEP 6: Make layering adjustments to elements with z-index
+=================================================
+-- 
 
 NEAT EXAMPLES
 ========================

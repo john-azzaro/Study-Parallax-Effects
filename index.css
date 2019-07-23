@@ -16,39 +16,41 @@ header {                                                                        
     position: absolute;                                                                                     /* set position to absolute so it can positioned anywhere you want */
     top: 50%;                                                                                               /* set vertical position */
     left: 20%;                                                                                             /* set horizontal position */
-    transform: translate(-20%,-50%)                                                                         /* transform translate that matches positioning */
+    transform: translate(-20%,-50%);                                                                         /* transform translate that matches positioning */
+    z-index: 1;
 }
 
 .main-text > h1 {                                                                                          /* h1 styling inside .main-text */
-    font-size: 70px;
+    font-size: 80px;
     margin-bottom: 10px;
 }
 
 .main-text > h3 {                                                                                           /* h3 styling inside .main-text */
-    font-size: 35px;
+    font-size: 40px;
 }
 
 
 .kiwi {                                                                                                  /* For the kiwi image...*/
     position: absolute;                                                                                      /* set position to absolute (relative to the header) */
-    height: 625px;                                                                                           /* set the image size to something manageable for the design */
-    top: 90%;                                                                                                /* sets vertical position for the kiwi image */
-    right: 10%;                                                                                              /* sets horizontal position for the kiwi image*/
-    transform: translate(-10%, -90%);                                                                        /* transform applies 2d transformation to element, translate defines that 2d translation on x and y axis */
+    height: 550px;                                                                                           /* set the image size to something manageable for the design */
+    top: 40%;                                                                                                /* sets vertical position for the kiwi image */
+    right: 12%;                                                                                              /* sets horizontal position for the kiwi image*/
+    /* transform: translate(-10%, -30%);                                                                        transform applies 2d transformation to element, translate defines that 2d translation on x and y axis */
+    z-index: 1;
 }
 
 .mango {                                                                                                  /* For mango image */
     position: absolute;
     height: 220px;
-    top: 10%;
-    right: 40%;
+    top: 20%;
+    right: 30%;
 }
 
 .apple {                                                                                                  /* for apple image */
     position: absolute;
     height: 350px;
-    top: 30%;
-    right: 10%;
+    top: 20%;
+    right: 50%;
 }
 
 section {                                                                                                  /* for the content section below the main parallax section*/
