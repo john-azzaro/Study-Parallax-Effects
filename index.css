@@ -13,15 +13,19 @@ header {                                                                        
     position: absolute;                                                                                     /* set position to absolute so it can positioned anywhere you want */
 }
 
-.kiwi {
-
+.kiwi {                                                                                                  /* For the kiwi image...*/
+    position: absolute;                                                                                       /* set position to absolute (relative to the header) */
+    height: 300px;                                                                                              /* set the image size to something manageable for the design */
+    transform: translate(-10%, -90%);
+    top: 90%;
+    right: 10%;
 }
 
 .mango {
-
+    height: 300px;
 }
 
-.mango {
-    
+.apple {
+    height: 300px;
 }
 
