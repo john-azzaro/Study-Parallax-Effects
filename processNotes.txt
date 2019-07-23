@@ -57,7 +57,10 @@ STEP 4: write logic for parallax
    different speeds by transform/translate the speed at which it moves as we scroll down.
 
 -- In your js file, create a function called parallax.
--- 
+-- the function will take 3 parameters:
+    1. element -- the element we want to select.
+    2. distance -- the distance we need to scroll
+    3. speed -- the speed at which the selected element will go.
 
 
 
