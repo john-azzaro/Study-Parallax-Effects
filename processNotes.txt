@@ -10,7 +10,7 @@ the image AND the content move as you move down the page.
 
 STEP 1: create an html page
 =============================
--- in this example, 
+-- in this example, we'll just use a h1 and h3 element, and a few pictures of delicious fruit.
 
 
 
