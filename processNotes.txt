@@ -1,6 +1,5 @@
 Process Notes
 ==============
-
 So this is a study on parallax.  But what is parallax exactly?  To put this in context, think
 of a normal website with a fixed background image.  When you scroll down, the image will stay as is.  
 However, the magic happens when you start using parallax.  When you use a static image, it will remain 
@@ -8,14 +7,32 @@ static while the content moves over the image as you scroll down the page.  With
 the image AND the content move as you move down the page.
 
 
+
 STEP 1: create an html page
 =============================
 -- in this example, we'll just use a h1 and h3 element, and a few pictures of delicious fruit.
 
 
+STEP 2: Set up the css for the elements you want to apply the parallax effect to:
+=================================================================================
+--  This involves setting each of the images and elements you want to "absolute" so that they are outside 
+    normal flow and can be offset.
+--  So for example, when you apply "position: absolute" to the kiwi image, it will be set with absolute positioning
+    relative to the parent container, which in this case is the header.  
+--  Then when you set the absolute positioning, you can set the horizontal and vertical alignments with top and right
+--  Now for transform and translate.
+    --  When you use transform, you apply 2d transformation to the element.
+    --  When you use translate, and in this case match the x and y axis to the the top and right/left positioning, you apply 
+        a negative to it to essentially match it and bring it to where you want it.
 
-EXAMPLES
-=========
+
+
+
+
+
+
+NEAT EXAMPLES
+========================
 
 https://kontainer.com/  -- note the subtle shape elements that move as you scroll down
 https://www.crema.us/ -- note the splash and moving phone outlines
