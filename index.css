@@ -1,7 +1,9 @@
 *, *::before, *::after {                                                                                 /* Default values: */
     box-sizing: border-box;                                                                                  /* Includes padding and border in elements for total width and height */
-    margin: 0;
-    padding: 0;                                                                 
+    margin: 0;                                                                                               /* set default margin to 0 */
+    padding: 0;                                                                                              /* set default padding to 0 */
+    font-family: 'Poppins', sans-serif;                                                                       /* font used (with metalink in HTML) */    
+    color: white;                                                            
 }
 
 header {                                                                                                      /* for the header section...*/
@@ -13,23 +15,42 @@ header {                                                                        
     position: absolute;                                                                                     /* set position to absolute so it can positioned anywhere you want */
     top: 50%;                                                                                               /* set vertical position */
     left: 20%;                                                                                             /* set horizontal position */
-    transform: translate(-80%,-50%)                                                                            /* */
-
+    transform: translate(-20%,-50%)                                                                         /* transform translate that matches positioning */
 }
+
+.main-text > h1 {                                                                                          /* h1 styling inside .main-text */
+    font-size: 70px;
+    margin-bottom: 10px;
+}
+
+.main-text > h3 {                                                                                           /* h3 styling inside .main-text */
+    font-size: 35px;
+}
+
 
 .kiwi {                                                                                                  /* For the kiwi image...*/
     position: absolute;                                                                                      /* set position to absolute (relative to the header) */
-    height: 550px;                                                                                           /* set the image size to something manageable for the design */
+    height: 600px;                                                                                           /* set the image size to something manageable for the design */
     top: 90%;                                                                                                /* sets vertical position for the kiwi image */
     right: 10%;                                                                                              /* sets horizontal position for the kiwi image*/
     transform: translate(-10%, -90%);                                                                        /* transform applies 2d transformation to element, translate defines that 2d translation on x and y axis */
 }
 
-.mango {
+.mango {                                                                                                  /* For mango image */
+    position: absolute;
     height: 300px;
+    top: 10%;
+    right: 40%;
 }
 
-.apple {
-    height: 300px;
+.apple {                                                                                                  /* for apple image */
+    position: absolute;
+    height: 350px;
+    top: 30%;
+    right: 10%;
 }
+
+
+
+
 

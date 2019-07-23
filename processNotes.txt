@@ -25,6 +25,16 @@ STEP 2: Set up the css for the elements you want to apply the parallax effect to
     --  When you use translate, and in this case match the x and y axis to the the top and right/left positioning, you apply 
         a negative to it to essentially match it and bring it to where you want it.
 
+--  So basically for this step, you want to select each element (i.e. image, text, etc.) and do the following:
+    --  set display: absolute so that you put the element outside normal flow and you can position it wherever you want.
+    --  Set the vertical and horizontal position with top and left/right (i.e. 50% top and 50% left will center the element).
+    --  set transform: translate (i.e. translate(x,y)) with the x axis being the horizontal and y being vertical but also adding a 
+        negative to it.
+
+STEP 3: Set the seperate section:
+================================
+-- set the height of the section below to 100vh.
+
 
 
 
