@@ -30,7 +30,7 @@ header {                                                                        
 
 .kiwi {                                                                                                  /* For the kiwi image...*/
     position: absolute;                                                                                      /* set position to absolute (relative to the header) */
-    height: 600px;                                                                                           /* set the image size to something manageable for the design */
+    height: 625px;                                                                                           /* set the image size to something manageable for the design */
     top: 90%;                                                                                                /* sets vertical position for the kiwi image */
     right: 10%;                                                                                              /* sets horizontal position for the kiwi image*/
     transform: translate(-10%, -90%);                                                                        /* transform applies 2d transformation to element, translate defines that 2d translation on x and y axis */
@@ -38,7 +38,7 @@ header {                                                                        
 
 .mango {                                                                                                  /* For mango image */
     position: absolute;
-    height: 300px;
+    height: 220px;
     top: 10%;
     right: 40%;
 }
@@ -51,7 +51,7 @@ header {                                                                        
 }
 
 section {                                                                                                  /* for the content section below the main parallax section*/
-    min-height: 100vh;                                                                                       /* set the height to viewport height*/
+    min-height: 70vh;                                                                                       /* set the height to viewport height (70vh is 70% of the current viewport height for this element)*/
     background-color: #645757;
     display: flex;                                                                                           /* set the display*/
     justify-content: center;                                                                                  /* set text horizontally center */

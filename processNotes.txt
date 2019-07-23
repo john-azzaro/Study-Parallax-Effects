@@ -51,7 +51,13 @@ STEP 3: Set the seperate section:
 
 
 
+STEP 4: write logic for parallax 
+================================
+-- The objective here to select one of the elements that we have (i.e. kiwi, apple, mango, and text) and have them scroll at 
+   different speeds by transform/translate the speed at which it moves as we scroll down.
 
+-- In your js file, create a function called parallax.
+-- 
 
 
 
