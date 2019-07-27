@@ -3,12 +3,12 @@ See it Live: https://john-azzaro.github.io/Study-Parallax-Effects/
 
 <br>
 
-## What is ParallaX Effects Study?
-Parallax is an effect where the background content, text, image, shape, etc. moves at a different speed than the foreground content while the user scrolls up and down the page.  This particular study includes a demonstration of the technology where 3 peices of fruit and a text section move at different speeds up and down the page.
+## What is Parallax Effects Study?
+Parallax is an effect where background content such as text, images, shapes, etc. move at a different speeds than the foreground content in relation to the user scrolling up ro down a page.  This particular study includes a demonstration wherein 3 peices of fruit and a text section move at different speeds up and down the page.
 
 <br>
 
-## Does the Parallax Effetcs Study feature commentary?
+## Does the Parallax Effects Study feature commentary?
 Yes! I use extensive Commentary (mostly in the form of my thought process) so that the new and curious can follow the logic in the program and get an idea of my reasoning behind each and every line of code.  In addition to my line-by-line commantary, I also provide a Process text file that gives a good outline of my design and implementation process. 
 
 <br>
