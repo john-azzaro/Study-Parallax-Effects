@@ -78,7 +78,7 @@ STEP 5: Add event listeners for each element that you want to scroll in parallax
 
 STEP 6: Make layering adjustments to elements with z-index
 =================================================
--- 
+-- layering will make some of the fruits layer over the others with lesser rating.
 
 NEAT EXAMPLES
 ========================

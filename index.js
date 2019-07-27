@@ -22,4 +22,4 @@ function initialize() {                                                     // W
     setUpEventListeners();
 }
 
-$(initialize);                                                              // intialize the app.
+$(initialize);                                                              // intialize the app to run on start.
