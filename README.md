@@ -13,7 +13,8 @@ Parallax is an effect where background content such as text, images, shapes, etc
 <br>
 <dl> 
 
-
+### Use a parallax utility to facilitate the effect with multiple elements.
+As a rounded solution to handling the parallax effect for 4 different elements on the study, it's best to create a **parallax** utility that handles the element, distance, and speed of the effect for the the different elements.
 
 
 
