@@ -15,6 +15,7 @@ Parallax is an effect where background content such as text, images, shapes, etc
 <dd>
 
 ### Use a functional utility to facilitate the effect with multiple elements.
+----------
 As a rounded solution to handling the parallax effect for 4 different elements on the study, it's best to create a **parallax** utility that handles the element, distance, and speed of the effect for the the different elements. With this utility, for each selected "item," you can transform with custom speed and distance settings.
 ```JavaScript
 function parallax(element, distance, speed ) {     
@@ -25,6 +26,7 @@ function parallax(element, distance, speed ) {
 <br>
 
 ### When handling scroll with the utility function, tweaking is very easy.
+-----------
 I used jQuery in this example to explore how simple this could be and it really worked out well. On the document scroll, simply call the parallax utility and pass in the element, the distance, and the speed. Again, makes it worlds easier to tweak for the right effect. 
 ```JavaScript
 function handleScroll() {                      
