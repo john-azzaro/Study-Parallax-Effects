@@ -24,7 +24,7 @@ function parallax(element, distance, speed ) {
 <br>
 
 ### When handling scroll with the utility function, tweaking is very easy.
-I used jQuery in this example to explore how simple this could be and it really worked out well. On the document scroll 
+I used jQuery in this example to explore how simple this could be and it really worked out well. On the document scroll, simply call the parallax utility and pass in the element, the distance, and the speed. Again, makes it worlds easier to tweak for the right effect. 
 
 
 
