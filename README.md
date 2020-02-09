@@ -6,11 +6,16 @@ See it Live: https://john-azzaro.github.io/Study-Parallax-Effects/
 ## What is Parallax Effects Study?
 Parallax is an effect where background content such as text, images, shapes, etc. move at a different speeds than the foreground content in relation to the user scrolling up ro down a page.  This particular study includes an exploration wherein images and a text section move at different speeds in a parallax effect as the user scrolls up and sown the screen.
 
+Here are a few questions from the study to explore:
+
+* [What are the key takeaways from the Parallax Effects Study?](#What-are-the-key-takeaways-from-the-Parallax-Effects-Study)
+* [Does the Parallax Effects Study feature commentary?](#Does-the-Parallax-Effects-Study-feature-commentary)
+* [What are the key features of the Parallax Effects Study?](#What-are-the-key-features-of-the-Parallax-Effects-Study)
+* [Screenshots](#Screenshots)
 <br>
 
 ## What are the key takeaways from the Parallax Effects Study?
 
-<br>
 <dl> 
 <dd>
 
